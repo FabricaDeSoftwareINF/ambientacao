@@ -27,7 +27,7 @@ Nesta seção estão contidos os requisitos que serão alvo dos testes a serem r
 |      HU10       |                    Administrador de um TC/suplente enviar, por e-mail, o relatório gerado                     |
 |      HU11       |     Portador de um relatório de acompanhamento verificar se o relatório foi emitido pelo Sistema TC EDUCA     |
 
-### 2.2 - Requisitos de Negócio:
+### 2.2 - Regras de Negócio:
 | Identificador |                                                                Nome                                                                 |
 |:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
 |      RN1      |                                   Administrador de um TC pode cadastrar apenas usuários suplentes                                   |
