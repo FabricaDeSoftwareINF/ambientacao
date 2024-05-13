@@ -73,7 +73,7 @@ Não se aplica.
 | 3 | O sistema mostra a tela de login | [FA01](#FA), [FA02](#FA) | | [2](#tela2) |
 | 4 | O usúario informa o seu e-mail ou CPF e a senha | [FEX01](#FC), [FEX02](#FC) | [RN01](#RN), [RN02](#RN) | [2](#tela2) |
 | 5 | O usúario pressiona o botão entrar ou pressiona a tecla enter |  | | [2](#tela2) |
-| 6 | O sistema autentica, concede acesso ao usuário e executa o caso de uso Home Cliente ou Home Administrador (a depender do perfil do usuário) |  | |  |
+| 6 | O sistema autentica, concede acesso ao usuário e executa o caso de uso [Home Cliente](https://github.com/FabricaDeSoftwareINF/ambientacao/blob/fc32d892fe36c7bcb704e8bb7ad1942c666d83ec/documentacao/requisitos/template/caso-de-uso-exemplo-home-cliente.md) ou Home Administrador (a depender do perfil do usuário) |  | |  |
 
 <a name="FA"></a>
 
@@ -84,14 +84,14 @@ Não se aplica.
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | Usuário clica em "Cadastre-se" ou "Não tem cadastro?"  | | | [2](#tela2) |
-| 2 | O sistema executa o caso de uso Cadastro| | | |
+| 2 | O sistema executa o caso de uso [Cadastro](https://github.com/FabricaDeSoftwareINF/ambientacao/blob/fc32d892fe36c7bcb704e8bb7ad1942c666d83ec/documentacao/requisitos/template/caso-de-uso-exemplo-cadastro-usuarios.md)| | | |
 
 ### FA02 - Recuperação de senha
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | Usuário clica em "Esqueceu sua senha?" | | | [2](#tela2) |
-| 2 | O sistema executa o caso de uso Recuperação de senha| | | |
+| 2 | O sistema executa o caso de uso [Recuperação de senha](https://github.com/FabricaDeSoftwareINF/ambientacao/blob/fc32d892fe36c7bcb704e8bb7ad1942c666d83ec/documentacao/requisitos/template/caso-de-uso-exemplo-recuperacao-senha.md)| | | |
 
 ### FA03 - Vitrine de Talentos
 
