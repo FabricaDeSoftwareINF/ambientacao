@@ -150,7 +150,7 @@ Não se aplica.
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O usuário escolhe uma das opções de vínculo entre ICT, Empresa, Órgão do governo e Entidade da Sociedade civil. | | | [1](#tela1) |
-| 2| O usuário pressiona o botão avançar | [FEX01](#FC), [FEX02](#FEX02), [FEX03](#FEX03)  | | [1](#tela1) |
+| 2| O usuário pressiona o botão avançar | [FEX01](#FEX01), [FEX02](#FEX02), [FEX03](#FEX03)  | | [1](#tela1) |
 | 3 | O sistema mostra a tela de cadastro de dados da empresa |  | | [4](#tela4) |
 | 4 | O usuário insere informações necessárias, como nome da empresa, CNPJ, entre outras informações da empresa. | | | [4](#tela4) |
 | 5 | O usuário pressiona o botão cadastrar | [FEX02](#FEX02)  | | [4](#tela4) |
@@ -163,7 +163,7 @@ Não se aplica.
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O usuário escolhe não participar do banco de talentos |  | | [1](#tela1) |
-| 2 | O usuário pressiona o botão avançar | [FEX01](#FC), [FEX02](#FEX02), [FEX03](#FEX03)  | | [1](#tela1) |
+| 2 | O usuário pressiona o botão avançar | [FEX01](#FEX01), [FEX02](#FEX02), [FEX03](#FEX03)  | | [1](#tela1) |
 | 3 | O sistema exibe o pop-up de cadastro realizado com sucesso na tela de login |  |  | [5](#tela5) |
 
 <a name="FA03"></a>
