@@ -201,7 +201,7 @@ Não se aplica.
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O sistema identifica que campos obrigatórios não foram preenchidos |  |  | [1](#tela1), [2](#tela2), [3](#tela3) |
-| 2 | O sistema exibe a mensagem "Campo obrigatório não informado" abaixo do(s) campo(s) não preenchido(s) |  |  | [1](#tela1), [3](#tela2), [4](#tela3)|
+| 2 | O sistema exibe a mensagem "Campo obrigatório não informado" abaixo do(s) campo(s) não preenchido(s) |  |  | [1](#tela1), [3](#tela3), [4](#tela4)|
 
 <a name="FEX03"></a>
 
