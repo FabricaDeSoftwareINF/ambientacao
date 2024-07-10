@@ -5,6 +5,7 @@
 |:------------|:----------------|:--------------|:----------------|
 | 1.0 | Versão Inicial do Arquivo | Carlos Henrique R. de Jesus | 27/10/2023 |
 | 1.1 | Apagando os Destaques da Tela Inicial | Carlos Henrique R. de Jesus | 20/11/2023 |
+| 1.1 | Atualização do formato de descrição de telas e tags HTML | Matheus de Azevedo | 10/07/2024 |
 
 ## **Descrição**
 Esta funcionalidade permite o acesso de um usuário ao sistema. O usuário deve fornecer suas credenciais autenticadas, como o endereço de e-mail ou CPF e uma senha, que são previamente definidas e associadas ao seu perfil
@@ -77,9 +78,9 @@ Não se aplica.
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O sistema mostra a tela inicial |  |  | [1](#tela1) |
-| 2 | O usuário clica no botão Clique aqui ou no botão Entre | [FA01](#FA), [FA03](#FA),  | | [1](#tela1) |
-| 3 | O sistema mostra a tela de login | [FA01](#FA), [FA02](#FA) | | [2](#tela2) |
-| 4 | O usúario informa o seu e-mail ou CPF e a senha | [FEX01](#FC), [FEX02](#FC) | [RN01](#RN), [RN02](#RN) | [2](#tela2) |
+| 2 | O usuário clica no botão Clique aqui ou no botão Entre | [FA01](#FA01), [FA03](#FA03),  | | [1](#tela1) |
+| 3 | O sistema mostra a tela de login | [FA01](#FA01), [FA02](#FA02) | | [2](#tela2) |
+| 4 | O usúario informa o seu e-mail ou CPF e a senha | [FEX01](#FEX), [FEX02](#FEX) | [RN01](#RN), [RN02](#RN) | [2](#tela2) |
 | 5 | O usúario pressiona o botão entrar ou pressiona a tecla enter |  | | [2](#tela2) |
 | 6 | O sistema autentica, concede acesso ao usuário e executa o caso de uso [Home Cliente](https://github.com/FabricaDeSoftwareINF/ambientacao/blob/fc32d892fe36c7bcb704e8bb7ad1942c666d83ec/documentacao/requisitos/template/caso-de-uso-exemplo-home-cliente.md) ou Home Administrador (a depender do perfil do usuário) |  | |  |
 

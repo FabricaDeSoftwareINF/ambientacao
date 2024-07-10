@@ -4,7 +4,7 @@
 | <div style="width:290px">Versão</div> | Atividade | Autor | Data |
 |:------------|:----------------|:--------------|:----------------|
 | 1.0 | Versão Inicial do Arquivo | Murilo Lopes da Luz  | 07/12/2021 |
-| 1.1 | Atualização do formato da descrição de telas e tags HTML | Matheus de Azevedo | 10/07/2024 |
+| 1.1 | Atualização do formato de descrição de telas e tags HTML | Matheus de Azevedo | 10/07/2024 |
 
 ## **Descrição**
 Não se aplica.
