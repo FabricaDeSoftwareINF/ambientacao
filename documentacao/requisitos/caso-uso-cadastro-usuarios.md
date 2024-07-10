@@ -83,8 +83,8 @@ O usuário deve possuir a permissão de administrador.
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 |	O usuário informa o nome do usuário | [FEX03](#FEX03) | [RN02](#RNS), [RN04](#RNS) | [1](#tela1) |
-| 2 |	O sistema exibe o(s) usuário(s) que atende(m) à busca |  | [RN03](#RNS) |  |
+| 1 |	O usuário informa o nome do usuário | [FEX03](#FEX03) | [RN02](#RN), [RN04](#RN) | [1](#tela1) |
+| 2 |	O sistema exibe o(s) usuário(s) que atende(m) à busca |  | [RN03](#RN) |  |
 
 <a name="FA02"></a>
 
@@ -135,7 +135,7 @@ O usuário deve possuir a permissão de administrador.
 ### FEX02 - Dados inválidos
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | O sistema identifica que há dados informados inválidos |  | [RN01](#RNS) | |
+| 1 | O sistema identifica que há dados informados inválidos |  | [RN01](#RN) | |
 | 2 | O sistema informa que há dados incorretos |  | | |
 | 3 | O sistema retorna o fluxo para o Passo 3 do [FP](#FP) ou [FA02](#FA02) |  | | |
   
