@@ -3,7 +3,7 @@
 | <div style="width:290px">Versão</div> | Atividade | Autor | Data |
 |:------------|:----------------|:--------------|:----------------|
 | 1.0 | Criação do documento | Mariana Soller Ramada  | 14/04/2022 |
-|1.1  | Corrigindo idenfiticador de Fluxo de Exceção e removendo seção de Regras Gerais | Mariana Soller Ramada | 27/02/2024 |
+| 1.1 | Corrigindo idenfiticador de Fluxo de Exceção e removendo seção de Regras Gerais | Mariana Soller Ramada | 27/02/2024 |
 
 ## **Descrição**
 Essa funcionalidade é responsável por cadastrar usuários para permitir o acesso dos mesmos ao sistema.

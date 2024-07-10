@@ -20,13 +20,16 @@ Não se aplica.
 ## **Descrição da(s) Tela(s)**
 
 **Tela 1**
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Cancelar | | | Botão | | | |
-| CPF | x | | Alfanumérico | XXX.XXX.XXX-XX | |[RI01](#RI)  |
-| Nacionalidade | x | | Seleção única| | Valores válidos: Brasileiro, Estrangeiro. Valor default: Brasileiro | |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Cancelar | | Botão | | | |
+| CPF | OBR | Alfanumérico | XXX.XXX.XXX-XX | |[RI01](#RI)  |
+| Nacionalidade | OBR | Seleção única| | Valores válidos: Brasileiro, Estrangeiro. Valor default: Brasileiro | |
 
-* Tipos: Inteiro, Numérico, Alfanumérico, Data, Hora, Botão, Seleção única, Seleção múltipla, Lista
+- Preenchimento: 
+  - **OBR:** Obrigatório
+  - **AUT:** Automático
+- Tipos: Inteiro, Numérico, Alfanumérico, Data, Hora, Botão, Seleção única, Seleção múltipla, Lista
 
 ## **Fluxo Principal**
 ### FP - < Nome do Fluxo >
