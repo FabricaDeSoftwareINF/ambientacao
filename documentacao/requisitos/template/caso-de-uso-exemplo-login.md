@@ -5,7 +5,7 @@
 |:------------|:----------------|:--------------|:----------------|
 | 1.0 | Versão Inicial do Arquivo | Carlos Henrique R. de Jesus | 27/10/2023 |
 | 1.1 | Apagando os Destaques da Tela Inicial | Carlos Henrique R. de Jesus | 20/11/2023 |
-| 1.1 | Atualização do formato de descrição de telas e tags HTML | Matheus de Azevedo | 10/07/2024 |
+| 1.2 | Atualização do formato de descrição de telas e tags HTML | Matheus de Azevedo | 10/07/2024 |
 
 ## **Descrição**
 Esta funcionalidade permite o acesso de um usuário ao sistema. O usuário deve fornecer suas credenciais autenticadas, como o endereço de e-mail ou CPF e uma senha, que são previamente definidas e associadas ao seu perfil
