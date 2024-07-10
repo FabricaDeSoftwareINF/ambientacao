@@ -131,7 +131,7 @@ Não se aplica.
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O usuário insere informações necessárias, como email, senha, entre outras informações. | | [RN01](#RN), [RN02](#RN), [RN03](#RN) | [1](#tela1) |
 | 2 | O usuário escolhe a opção de vínculo pessoa física | [FA01](#FA01) | | [1](#tela1) |
-| 3 | O usuário escolhe participar do banco de talentos e pressiona o botão avançar | [FA02](#FA02) [FEX02](#FEX02) | | [1](#tela1) |
+| 3 | O usuário escolhe participar do banco de talentos e pressiona o botão avançar | [FA02](#FA02), [FEX02](#FEX02) | | [1](#tela1) |
 | 4 | O sistema exibe mensagem para concordância de divulgação dos contatos pessoais  | [FA02](#FA02) | [RN04](#RN) | [2](#tela2) |
 | 5 | O usuário pressiona o botão concordar | [FA02](#FA02) | [RN05](#RN) | [2](#tela2) |
 | 6 | O sistema mostra a página de cadastro do banco de talentos |  | | [3](#tela3) |
