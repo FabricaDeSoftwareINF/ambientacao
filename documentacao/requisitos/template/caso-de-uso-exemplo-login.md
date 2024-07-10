@@ -7,7 +7,7 @@
 | 1.1 | Apagando os Destaques da Tela Inicial | Carlos Henrique R. de Jesus | 20/11/2023 |
 
 ## **Descrição**
-Esta funcionalidade permite o acesso de um usuário ao sistema. O usuário deve fornecer suas credenciais autenticadas, como o endereço de e-mail ou cpf e uma senha, que são previamente definidas e associadas ao seu perfil
+Esta funcionalidade permite o acesso de um usuário ao sistema. O usuário deve fornecer suas credenciais autenticadas, como o endereço de e-mail ou CPF e uma senha, que são previamente definidas e associadas ao seu perfil
 
 ## **Ator(es)**
 Cliente e Administrador do sistema.
@@ -20,46 +20,54 @@ Não se aplica.
 
 ## **Descrição da(s) Tela(s)**
 
-<a name="tela1"></a>**Tela 1** - `Tela Inicial`
+<a name="tela1"></a>
+
+**Tela 1** - `Tela Inicial`
 
 ![image](https://github.com/FabricaDeSoftwareINF/ipelab/assets/106249672/706717cd-a0c0-490f-99b4-1415bae7033c)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Entre | | | Botão | | | |
-| Cadastre-se | | | Botão | | | |
-| Clique aqui | | | Botão | | | |
-| Slider navigation | | | Botão | | | |
-| Ver Todos | | | Botão | | | |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Entre | | Botão | | | |
+| Cadastre-se | | Botão | | | |
+| Clique aqui | | Botão | | | |
+| Slider navigation | | Botão | | | |
+| Ver Todos | | Botão | | | |
 
-<a name="tela2"></a>**Tela 2** - `Login`
+<a name="tela2"></a>
+
+**Tela 2** - `Login`
 
 ![image](https://github.com/FabricaDeSoftwareINF/ipelab/assets/106249672/44c9b2e1-3d22-4aaa-a08c-7eb64f850661)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| E-mail ou CPF | x | | Alfanumérico | | | [RI01](#RI) |
-| Senha | x | | Alfanumérico | | | [RI01](#RI) |
-| Esqueceu sua senha? | | | Botão | | | |
-| Não tem cadastro? | | | Botão | | | |
-| Entrar | | | Botão | | | |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| E-mail ou CPF | OBR | Alfanumérico | | | [RI01](#RI) |
+| Senha | OBR | Alfanumérico | | | [RI01](#RI) |
+| Esqueceu sua senha? | | Botão | | | |
+| Não tem cadastro? | | Botão | | | |
+| Entrar | | Botão | | | |
 
-<a name="tela3"></a>**Tela 3** - `Login Mensagem de Erro`
+<a name="tela3"></a>
+
+**Tela 3** - `Login Mensagem de Erro`
 
 ![image](https://github.com/FabricaDeSoftwareINF/ipelab/assets/8249709/6ecf3799-9dde-4f0d-a23c-aa076f2c7079)
 
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Mensagem de erro | | | Pop-Up | | | [RI02](#RI) |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Mensagem de erro | | Pop-Up | | | [RI02](#RI) |
 
-<a name="tela4"></a>**Tela 4** - `Login Mensagem Campo Obrigatório Não Preenchido`
+<a name="tela4"></a>
+
+**Tela 4** - `Login Mensagem Campo Obrigatório Não Preenchido`
 
 ![image](https://github.com/FabricaDeSoftwareINF/ipelab/assets/106249672/705bf51d-c4ac-4e30-9522-8a02dbc08329)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Mensagem de erro | | | Mensagem | | | [RI02](#RI) |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Mensagem de erro | | Mensagem | | | [RI02](#RI) |
 
 <a name="FP"></a>
 
@@ -79,6 +87,8 @@ Não se aplica.
 
 ## **Fluxo Alternativo**
 
+<a name="FA01"></a>
+
 ### FA01 - Cadastro
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
@@ -86,12 +96,16 @@ Não se aplica.
 | 1 | Usuário clica em "Cadastre-se" ou "Não tem cadastro?"  | | | [2](#tela2) |
 | 2 | O sistema executa o caso de uso [Cadastro](https://github.com/FabricaDeSoftwareINF/ambientacao/blob/fc32d892fe36c7bcb704e8bb7ad1942c666d83ec/documentacao/requisitos/template/caso-de-uso-exemplo-cadastro-usuarios.md)| | | |
 
+<a name="FA02"></a>
+
 ### FA02 - Recuperação de senha
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | Usuário clica em "Esqueceu sua senha?" | | | [2](#tela2) |
 | 2 | O sistema executa o caso de uso [Recuperação de senha](https://github.com/FabricaDeSoftwareINF/ambientacao/blob/fc32d892fe36c7bcb704e8bb7ad1942c666d83ec/documentacao/requisitos/template/caso-de-uso-exemplo-recuperacao-senha.md)| | | |
+
+<a name="FA03"></a>
 
 ### FA03 - Vitrine de Talentos
 
@@ -106,15 +120,20 @@ Não se aplica.
 
 Não se aplica
 
-<a name="FC"></a>
+<a name="FEX"></a>
 
 ## **Fluxo Exceção**
+
+<a name="FEX01"></a>
+
 ### FEX01 - Credenciais inválidas
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O sistema identifica campo(s) preenchido(s) com dado(s) incorreto(s) |  | | [3](#tela3) |
 | 2 | O sistema exibe a mensagem "E-mail/CPF ou senha incorretos!" em um pop-up. |  | | [3](#tela3) |
+
+<a name="FEX02"></a>
 
 ### FEX02 - Campo obrigatório não informado
 
