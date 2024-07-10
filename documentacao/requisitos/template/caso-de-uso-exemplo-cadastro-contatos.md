@@ -48,8 +48,8 @@ O usuário necessita estar autenticado como Administrador de Tribunal de Contas 
 | Cancelar | | Botão | | | |
 | Nome | OBR | Alfanumérico | | | [RI01](#RI) |
 | E-mail | OBR | Alfanumérico | | | [RI01](#RI) |
-| Gestão | OBR | Seleção única | | Valores válidos: Estadual, Municipal | [RI01](#RI) e [RI04](#RI) |
-| Município | OBR | Seleção única | | Valores válidos: nome dos municípios em ordem crescente alfabética | [RI01](#RI), [RI05](#RI) e [RI06](#RI) |
+| Gestão | OBR | Seleção única | | Valores válidos: Estadual, Municipal | [RI01](#RI), [RI04](#RI) |
+| Município | OBR | Seleção única | | Valores válidos: nome dos municípios em ordem crescente alfabética | [RI01](#RI), [RI05](#RI), [RI06](#RI) |
 | Cargo | OBR | Seleção única | | Valores válidos: Controle interno, Gestor, Secretário de Educação | [RI01](#RI) |
 | Descrição da Vaga | | Alfanumérico | | | | 
 
@@ -98,9 +98,9 @@ O usuário necessita estar autenticado como Administrador de Tribunal de Contas 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | Usuário clica no menu que gerencia o cadastro de Contatos. | | | |
-| 2 | Sistema retorna a listagem de Contatos. | | [RN02](#RN) e [RN03](#RN) | [1](#tela1) |
-| 3 | Usuário clica no botão *Adicionar* para incluir um novo Contato. | [FA01](#FA01), [FA02](#FA02) e [FA03](#FA03) | | [1](#tela1) |
-| 4 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. | | [RN01](#RN) e [RN04](#RN) | [2](#tela2) |
+| 2 | Sistema retorna a listagem de Contatos. | | [RN02](#RN), [RN03](#RN) | [1](#tela1) |
+| 3 | Usuário clica no botão *Adicionar* para incluir um novo Contato. | [FA01](#FA01), [FA02](#FA02), [FA03](#FA03) | | [1](#tela1) |
+| 4 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. | | [RN01](#RN), [RN04](#RN) | [2](#tela2) |
 | 5 | Usuário fornece os dados e clica no botão *Salvar*. | [FEX01](#FEX01), [FEX02](#FEX02), [FEX04](#FEX04) | | | |
 | 6 | Sistema salva o cadastro e exibe mensagem de sucesso. | | | [4](#tela4) |
 
