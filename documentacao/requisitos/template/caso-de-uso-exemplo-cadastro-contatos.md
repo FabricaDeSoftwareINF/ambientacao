@@ -116,8 +116,8 @@ O usuário necessita estar autenticado como Administrador de Tribunal de Contas 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | Usuário clica no botão *Editar* de um determinado Contato. | | | [1](#tela1) |
-| 2 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. | | [RN01](#RN) e [RN04](#RN) | [2](#tela2) |
-| 3 | Usuário fornece os dados e clica no botão *Salvar*. | [FEX01](#FEX01) e [FEX02](#FEX02) | | [2](#tela2) |
+| 2 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. | | [RN01](#RN), [RN04](#RN) | [2](#tela2) |
+| 3 | Usuário fornece os dados e clica no botão *Salvar*. | [FEX01](#FEX01), [FEX02](#FEX02) | | [2](#tela2) |
 | 4 | Sistema salva o cadastro e exibe pop-up com a mensagem *"Registro alterado com sucesso"*. | | | [4](#tela4) |
 
 <a name="FA02"></a>
