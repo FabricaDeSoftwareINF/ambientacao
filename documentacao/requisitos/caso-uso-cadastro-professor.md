@@ -5,6 +5,7 @@
 |:------------|:----------------|:--------------|:----------------|
 | 1.0 | Versão Inicial do Arquivo | Ramon Lopes | 26/03/2024 |
 | 1.1 | Corrigindo fluxo principal | Ramon Lopes | 01/04/2024 |
+| 1.2 | Atualização tags HTML | Matheus de Azevedo | 10/07/2024 |
 
 ## **Descrição**
 Esta funcionalidade permite o cadastro de novos professores no sistema. O ator deve fornecer as informações de acordo.
@@ -33,6 +34,9 @@ Ator deve estar logado.
 <a name="FA"></a>
 
 ## **Fluxo Alternativo**
+
+<a name="FA01"></a>
+
 ### FA01 - Cancelar cadastro 
 
 | ID | Passo | Fluxo | Regra de Negócio |
@@ -48,9 +52,11 @@ Ator deve estar logado.
 
 Não se aplica.
 
-<a name="FC"></a>
+<a name="FEX"></a>
 
 ## **Fluxo Exceção**
+
+<a name="FEX01"></a>
 
 ### FEX01 - Campo obrigatorio não informado
 
@@ -58,6 +64,8 @@ Não se aplica.
 |:--------------|:----------------|:--------------|:----------------|
 | 1 | O sistema identifica que campos obrigatórios não foram preenchidos. | | |
 | 2 | O sistema exibe a mensagem "Campo obrigatório não informado" abaixo do(s) campo(s) não preenchido(s). | | |
+
+<a name="FEX02"></a>
 
 ### FEX02 - Professor já cadastrado
 
