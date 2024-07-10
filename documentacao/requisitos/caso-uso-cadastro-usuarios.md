@@ -23,37 +23,37 @@ O usuário deve possuir a permissão de administrador.
 
 ![listagem-usuarios](https://user-images.githubusercontent.com/8249709/163399632-61aac45b-82ae-4c28-a9e3-62edcab44472.PNG)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Adicionar usuário | | | Botão | | | |
-| Buscar | | | Alfanumérico | | | |
-| Lista de usuários |  | | 	 |  | | [RI01](#RIS) | 
-| Editar |  | | Botão |  | | | 
-| Excluir | | | Botão |  | | | 
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Adicionar usuário | | Botão | | | |
+| Buscar | | Alfanumérico | | | |
+| Lista de usuários | | | | | [RI01](#RIS) | 
+| Editar | | Botão | | | | 
+| Excluir | | Botão | | | | 
 
 
 <a name="tela2"></a>**Tela 2**
 
 ![adicionar-usuario](https://user-images.githubusercontent.com/8249709/163402830-26f240aa-f332-4e38-8a80-e13d7b69e4b7.PNG)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Nome | x | | Alfanumérico | | | |
-| CPF | x | | Numérico | XXX.XXX.XXX-XX | | |
-| Cancelar |  | | Botão |  | | | 
-| Adicionar | | | Botão |  | | |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Nome | OBR | Alfanumérico | | | |
+| CPF | OBR | Numérico | XXX.XXX.XXX-XX | | |
+| Cancelar | | Botão | | | | 
+| Adicionar | | Botão | | | |
 
 
 <a name="tela3"></a>**Tela 3**
 
 ![editar-usuario](https://user-images.githubusercontent.com/8249709/163402841-afae1a53-9551-4292-9a68-28f36d34a10f.PNG)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo | Máscara | Observações | Regra de Interface |
-|:--------------|:----------------:|:--------------:|:--------------|:----------------|:--------------|:----------------|
-| Nome | x | x | Alfanumérico | | | |
-| CPF | x | x | Numérico | XXX.XXX.XXX-XX | | |
-| Cancelar |  | | Botão |  | | | 
-| Adicionar | | | Botão |  | | | 
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Nome | OBR, AUT | Alfanumérico | | | |
+| CPF | OBR, AUT | Numérico | XXX.XXX.XXX-XX | | |
+| Cancelar | | | Botão | | | | 
+| Adicionar | | | Botão | | | | 
 
 
 
