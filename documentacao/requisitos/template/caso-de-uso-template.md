@@ -41,7 +41,6 @@ Não se aplica.
 
 
 ## **Fluxo Alternativo**
-
 ### FA01 - < Nome do Fluxo Alternativo >
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
@@ -56,12 +55,15 @@ Não se aplica.
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | |  | | |
 
+
 ## **Fluxo Exceção**
 ### FEX01 - < Nome do Fluxo de Exceção >
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | |  | | |
+
+<a name="RN"></a>
 
 ## Regras de Negócio
 
@@ -70,6 +72,7 @@ Não se aplica.
 | **RN01** | O CPF deve ser validado de acordo com as regras estipuladas pela receita federal |
 
 <a name="RI"></a>
+
 ## Regras de Interface 
 
 | ID | Descrição da Regra |
