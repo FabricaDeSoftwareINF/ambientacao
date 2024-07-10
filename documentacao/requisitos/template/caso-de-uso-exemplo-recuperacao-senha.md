@@ -81,11 +81,11 @@ Não se aplica.
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
 | 1 | O sistema pede ao usuário para inserir o e-mail ou CPF o associado à conta |  | [RN01](#RN), [RN02](#RN) | [1](#tela1) |
-| 2 | O usuário pressiona o botão continuar | [FEX01](#FC), [FEX02](#FC)  | | [1](#tela1) |
+| 2 | O usuário pressiona o botão continuar | [FEX01](#FEX01), [FEX02](#FEX02)  | | [1](#tela1) |
 | 4 | O sistema mostra uma janela com a mensagem "instruções enviadadas por e-mail" |  | [RN03](#RN) | [2](#tela2) |
 | 5 | O sistema envia um e-mail com um link de redefinição de senha para o e-mail do usuário | | [RN03](#RN) | |
 | 6 | O Usuário clica no link e é direcionado para criar uma nova senha |  | | [3](#tela3) |
-| 7 | Usuário insere a nova senha e pressiona o botão alterar | [FEX02](#FC), [FEX03](#FC), [FEX04](#FC)   | [RN04](#RN) | [3](#tela3) |
+| 7 | Usuário insere a nova senha e pressiona o botão alterar | [FEX02](#FEX02), [FEX03](#FEX03), [FEX04](#FEX04)   | [RN04](#RN) | [3](#tela3) |
 | 8 | O sitema exibe um pop-up com a mensagem "Senha alterada com sucesso!" |  | | [4](#tela4) |
 
 <a name="FA"></a>
