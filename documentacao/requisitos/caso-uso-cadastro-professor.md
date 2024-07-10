@@ -28,7 +28,7 @@ Ator deve estar logado.
 |:--------------|:----------------|:--------------|:----------------|
 | 1 | O usuário acessa a página de cadastro de professor. | | |
 | 2 | O usuário preenche as informações necessárias, como nome completo, email, carga horária, área de atuação, entre outras. | | [RN01](#RN), [RN02](#RN) |
-| 3 | O usuário pressiona o botão salvar. | [FEX01](#FC), [FEX02](#FC)  | |
+| 3 | O usuário pressiona o botão salvar. | [FEX01](#FEX01), [FEX02](#FEX02)  | |
 | 4 | O sistema exibe o pop-up de cadastro realizado com sucesso na tela. | | |
 
 <a name="FA"></a>
