@@ -3,6 +3,7 @@
 | <div style="width:290px">Versão</div> | Atividade              | Autor                      | Data       |
 | :----------------------------------------- | :------------------- | :------------------------- | :--------- |
 | 1.0                                        | Versão Inicial do Arquivo	 | Gustavo Coimbra Cavalcante | 17/03/2023 |
+| 1.1 | Atualização do formato de descrição de telas e tags HTML | Matheus de Azevedo | 10/07/2024 |
 
 ## **Descrição**
 
@@ -26,151 +27,168 @@ O usuário necessita estar autenticado como Administrador de Tribunal de Contas 
 
 ![listagem](https://user-images.githubusercontent.com/106631464/227244789-5c8452bc-7f1e-4707-816d-ab5ea0bbab0e.png)
 
-| Nome do Atributo  | Preench. Obrigatório | Preench. Automático | Tipo         | Máscara | Observações | Regra de Interface |
-| ----------------- | -------------------- | ------------------- | ------------ | ------- | ----------- | ------------------ |
-| Adicionar         |                      |                     | Botão        |         |             |                    |
-| Campo pesquisar   |                      |                     | Alfanumérico |         |             |                    |
-| Botão pesquisar   |                      |                     | Botão        |         |             |                    |
-| Lista de Contatos    |                   |                     | Lista        |         |             | [RI03](#RI)        |
-| Ordernar          |                      |                     | Botão        |         |             |                    |
-| Editar            |                      |                     | Botão        |         |             |                    |
-| Excluir           |                      |                     | Botão        |         |             |                    |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Adicionar | | Botão | | | |
+| Campo pesquisar | | Alfanumérico | | | |
+| Botão pesquisar | | Botão | | | |
+| Lista de Contatos | | Lista | | | [RI03](#RI) |
+| Ordernar | | Botão | | | |
+| Editar | | Botão | | | |
+| Excluir | | Botão | | | |
 
 
 <a name="tela2"></a>**Tela 2**
 
 ![form](https://user-images.githubusercontent.com/106631464/227245063-ea4816de-2ae5-40f7-b1db-c050a4ee63b9.png)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo          | Máscara        | Observações | Regra de Interface |
-| ---------------- | :------------------: | ------------------- | ------------- | -------------- | ----------- | ------------------ |
-| Salvar           |                      |                     | Botão         |                |             |                    |
-| Cancelar         |                      |                     | Botão         |                |             |                    |
-| Nome             |          x           |                     | Alfanumérico  |                |             | [RI01](#RI)        |
-| E-mail           |          x           |                     | Alfanumérico  |                |             | [RI01](#RI)        |
-| Gestão           |          x           |                     | Seleção única |                | Valores válidos: Estadual, Municipal | [RI01](#RI) e [RI04](#RI) |
-| Município        |          x           |                     | Seleção única |                | Valores válidos: nome dos municípios em ordem crescente alfabética | [RI01](#RI), [RI05](#RI) e [RI06](#RI) |
-| Cargo            |          x           |                     | Seleção única |                | Valores válidos: Controle interno, Gestor, Secretário de Educação     | [RI01](#RI) |
-| Descrição da Vaga |                     |                     | Alfanumérico  |                |             |                    | 
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Salvar | | Botão | | | |
+| Cancelar | | Botão | | | |
+| Nome | OBR | Alfanumérico | | | [RI01](#RI) |
+| E-mail | OBR | Alfanumérico | | | [RI01](#RI) |
+| Gestão | OBR | Seleção única | | Valores válidos: Estadual, Municipal | [RI01](#RI), [RI04](#RI) |
+| Município | OBR | Seleção única | | Valores válidos: nome dos municípios em ordem crescente alfabética | [RI01](#RI), [RI05](#RI), [RI06](#RI) |
+| Cargo | OBR | Seleção única | | Valores válidos: Controle interno, Gestor, Secretário de Educação | [RI01](#RI) |
+| Descrição da Vaga | | Alfanumérico | | | | 
 
 
 <a name="tela3"></a>**Tela 3**
 
 ![form-mensagem-erro](https://user-images.githubusercontent.com/106631464/227249121-08e25941-15d4-49b8-8fbc-a9ca18cf399d.png)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo          | Máscara        | Observações | Regra de Interface |
-| ---------------- | :------------------: | ------------------- | ------------- | -------------- | ----------- | ------------------ |
-| Mensagem de erro |                      |                     | Pop-up        |                |             | [RI02](#RI)        |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Mensagem de erro | | Pop-up | | | [RI02](#RI) |
 
 
 <a name="tela4"></a>**Tela 4**
 
 ![listagem-mensagem-de-sucesso](https://user-images.githubusercontent.com/106631464/227255071-35533c2c-a55b-4aa8-ae5d-858def045dbb.png)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo          | Máscara        | Observações | Regra de Interface |
-| ---------------- | :------------------: | ------------------- | ------------- | -------------- | ----------- | ------------------ |
-| Mensagem de sucesso |                   |                     | Pop-up        |                |             | [RI02](#RI)        |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Mensagem de sucesso | | | Pop-up | | | [RI02](#RI) |
 
 
 <a name="tela5"></a>**Tela 5**
 
 ![mensagem-exclusao](https://user-images.githubusercontent.com/106631464/227255162-6694e6bf-f1e5-47d6-bd65-493ccb135340.png)
 
-| Nome do Atributo | Preench. Obrigatório | Preench. Automático | Tipo          | Máscara        | Observações | Regra de Interface |
-| ---------------- | :------------------: | ------------------- | ------------- | -------------- | ----------- | ------------------ |
-| Confirmar           |                   |                     | Botão         |                |             |                    |
-| Cancelar            |                   |                     | Botão         |                |             |                    |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Confirmar | | Botão | | | |
+| Cancelar | | Botão | | | |
 
 
 <a name="tela6"></a>**Tela 6**
 
 ![busca-sem-resultados](https://user-images.githubusercontent.com/106631464/227255657-a3321c7c-8f1d-4f42-b7f7-c493dfa7314d.png)
 
-| Nome do Atributo  | Preench. Obrigatório | Preench. Automático | Tipo         | Máscara | Observações | Regra de Interface |
-| ----------------- | -------------------- | ------------------- | ------------ | ------- | ----------- | ------------------ |
-| Lista de Contatos |                      |                     | Lista        |         |             | [RI03](#RI)        |
+| Nome do Atributo | Preenchimento | Tipo | Máscara | Observações | Regra de Interface |
+|:-----------------|:-------------:|:-----|:--------|:------------|:-------------------|
+| Lista de Contatos | | Lista | | | [RI03](#RI) |
 
+<a name="FP"></a>
 
 ## **Fluxo Principal**
-<a name="FP"></a>
 ### FP - Incluir Contato
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Usuário clica no menu que gerencia o cadastro de Contatos.                      |                                               |   |             |
-| 2 | Sistema retorna a listagem de Contatos.                                         |                       | [RN02](#RN) e [RN03](#RN) | [1](#tela1) |
-| 3 | Usuário clica no botão *Adicionar* para incluir um novo Contato.                | [FA01](#FA01), [FA02](#FA02) e [FA03](#FA03)  |   | [1](#tela1) |
-| 4 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. |         | [RN01](#RN) e [RN04](#RN)               | [2](#tela2) |
-| 5 | Usuário fornece os dados e clica no botão *Salvar*.                             | [FEX01](#FEX01), [FEX02](#FEX02), [FEX04](#FEX04) |           |   |             |
-| 6 | Sistema salva o cadastro e exibe mensagem de sucesso.                           |                                   |               | [4](#tela4) |
+| 1 | Usuário clica no menu que gerencia o cadastro de Contatos. | | | |
+| 2 | Sistema retorna a listagem de Contatos. | | [RN02](#RN), [RN03](#RN) | [1](#tela1) |
+| 3 | Usuário clica no botão *Adicionar* para incluir um novo Contato. | [FA01](#FA01), [FA02](#FA02), [FA03](#FA03) | | [1](#tela1) |
+| 4 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. | | [RN01](#RN), [RN04](#RN) | [2](#tela2) |
+| 5 | Usuário fornece os dados e clica no botão *Salvar*. | [FEX01](#FEX01), [FEX02](#FEX02), [FEX04](#FEX04) | | | |
+| 6 | Sistema salva o cadastro e exibe mensagem de sucesso. | | | [4](#tela4) |
 
+
+<a name="FA"></a>
 
 ## **Fluxo Alternativo**
+
 <a name="FA01"></a>
+
 ### FA01 - Editar Contato
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Usuário clica no botão *Editar* de um determinado Contato.                               |     |                                  | [1](#tela1) |
-| 2 | Sistema retorna página contendo o formulário com os campos a serem preenchidos.          |     | [RN01](#RN) e [RN04](#RN)        | [2](#tela2) |
-| 3 | Usuário fornece os dados e clica no botão *Salvar*.                                      | [FEX01](#FEX01) e [FEX02](#FEX02) |    | [2](#tela2) |
-| 4 | Sistema salva o cadastro e exibe pop-up com a mensagem *"Registro alterado com sucesso"*. |     |                                  | [4](#tela4) |
+| 1 | Usuário clica no botão *Editar* de um determinado Contato. | | | [1](#tela1) |
+| 2 | Sistema retorna página contendo o formulário com os campos a serem preenchidos. | | [RN01](#RN), [RN04](#RN) | [2](#tela2) |
+| 3 | Usuário fornece os dados e clica no botão *Salvar*. | [FEX01](#FEX01), [FEX02](#FEX02) | | [2](#tela2) |
+| 4 | Sistema salva o cadastro e exibe pop-up com a mensagem *"Registro alterado com sucesso"*. | | | [4](#tela4) |
 
 <a name="FA02"></a>
+
 ### FA02 - Excluir Contato
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Usuário clica no botão *Excluir* de um determinado Contato.                                |     |      | [1](#tela1) |
-| 2 | Sistema exibe mensagem de confirmação de exclusão.                                         |     |      | [5](#tela5) |
-| 3 | Usuário confirma a exclusão.                                                               |     |      |             |
-| 4 | Sistema exclui o registro e exibe pop-up com a mensagem *"Registro excluído com sucesso"*. |     |      | [4](#tela4) |
+| 1 | Usuário clica no botão *Excluir* de um determinado Contato. | | | [1](#tela1) |
+| 2 | Sistema exibe mensagem de confirmação de exclusão. | | | [5](#tela5) |
+| 3 | Usuário confirma a exclusão. | | | |
+| 4 | Sistema exclui o registro e exibe pop-up com a mensagem *"Registro excluído com sucesso"*. | | | [4](#tela4) |
 
 <a name="FA03"></a>
+
 ### FA03 - Consultar Contato
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Usuário busca pelo nome.                         |                 |    | [1](#tela1) |
-| 2 | Sistema retorna Contato que corresponde à busca. | [FEX03](#FEX03) |    |             |
+| 1 | Usuário busca pelo nome. | | | [1](#tela1) |
+| 2 | Sistema retorna Contato que corresponde à busca. | [FEX03](#FEX03) | | |
 
+
+<a name="FE"></a>
 
 ## **Fluxo de Extensão: Não se aplica**
 
 
+<a name="FEX"></a>
+
+
 ## **Fluxo de Exceção**
+
 <a name="FEX01"></a>
+
 ### FEX01 - Campo(s) obrigatório(s) não preenchido(s)
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Sistema identifica campo(s) obrigatório(s) não preenchido(s) ao clicar em *Salvar*.                                                       |   |   |    |
-| 2 | Sistema exibe a mensagem *"Campo obrigatório não informado"* abaixo do(s) campo(s) não preenchido(s) e exibe pop-up com mensagem de erro. |   |   | [3](#tela3) |
+| 1 | Sistema identifica campo(s) obrigatório(s) não preenchido(s) ao clicar em *Salvar*. | | | |
+| 2 | Sistema exibe a mensagem *"Campo obrigatório não informado"* abaixo do(s) campo(s) não preenchido(s) e exibe pop-up com mensagem de erro. | | | [3](#tela3) |
 
 <a name="FEX02"></a>
+
 ### FEX02 - Campo(s) preenchido(s) com dado(s) incorreto(s)
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Sistema identifica campo(s) preenchido(s) com dado(s) incorreto(s) ao clicar em *Salvar*.                                              |   |   |    |
-| 2 | Sistema exibe a mensagem *"Dado inválido*" abaixo do(s) campo(s) preenchido(s) de forma incorreta e exibe pop-up com mensagem de erro. |   |   | [3](#tela3) |
+| 1 | Sistema identifica campo(s) preenchido(s) com dado(s) incorreto(s) ao clicar em *Salvar*. | | | |
+| 2 | Sistema exibe a mensagem *"Dado inválido*" abaixo do(s) campo(s) preenchido(s) de forma incorreta e exibe pop-up com mensagem de erro. | | | [3](#tela3) |
 
 <a name="FEX03"></a>
+
 ### FEX03 - Nenhum registro corresponde à busca
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Usuário busca por nome inexistente como Contato.                             |   |   |             |
-| 2 | O sistema exibe uma mensagem informando que nenhum resultado foi encontrado. |   |   | [6](#tela6) |
+| 1 | Usuário busca por nome inexistente como Contato. | | | |
+| 2 | O sistema exibe uma mensagem informando que nenhum resultado foi encontrado. | | | [6](#tela6) |
 
 <a name="FEX04"></a> 
+
 ### FEX04 - Gestão com cargo já cadastrado
 
 | ID | Passo | Fluxo | Regra de Negócio | Tela |
 |:--------------|:----------------|:--------------|:----------------|:--------------|
-| 1 | Sistema identifica a existência de contato associado ao cargo para determinado estado/município. |     | [RN04](#RN) |             |
-| 2 | Sistema exibe pop-up com a mensagem de erro *"Erro ao salvar. Este cargo já possui contato cadastrado para esta gestão"*. |     |             | [3](#tela3) |
+| 1 | Sistema identifica a existência de contato associado ao cargo para determinado estado/município. | | [RN04](#RN) | |
+| 2 | Sistema exibe pop-up com a mensagem de erro *"Erro ao salvar. Este cargo já possui contato cadastrado para esta gestão"*. | | | [3](#tela3) |
 
 <a name="RN"></a>
+
 ## Regras de Negócio
 
 | ID | Descrição da Regra |
@@ -181,6 +199,7 @@ O usuário necessita estar autenticado como Administrador de Tribunal de Contas 
 | **RN04** | Para cada município/estado serão cadastrados até 3 contatos para envio dos relatórios de acompanhamento. Um para cada tipo de cargo. |
 
 <a name="RI"></a>
+
 ## Regras de Interface
 
 | ID | Descrição da Regra |
