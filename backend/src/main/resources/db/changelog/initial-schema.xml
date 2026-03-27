@@ -18,4 +18,18 @@
         </createTable>
     </changeSet>
 
+    <changeSet id="20260320-usuario" author="GitHubCopilot">
+        <createTable tableName="usuario">
+            <column name="id" type="INT">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_usuario"/>
+            </column>
+            <column name="nome" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="cpf" type="VARCHAR(14)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+
 </databaseChangeLog>
